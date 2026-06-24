@@ -16,3 +16,4 @@ result = char_frequency(text)
 print("Частота символів:")
 for k, v in result.items():
     print(f"'{k}': {v}")
+input()
