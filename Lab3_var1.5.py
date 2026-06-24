@@ -13,3 +13,4 @@ def power(a, n):
 print(power(2, 3))   # 8
 print(power(2, -3))  # 0.125
 print(power(5, 0))   # 1
+input()
