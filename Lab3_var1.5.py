@@ -10,7 +10,8 @@ def power(a, n):
         return 1 / power(a, -n)
 
 # Приклади використання
-print(power(2, 3))   # 8
-print(power(2, -3))  # 0.125
-print(power(5, 0))   # 1
+a = int(input("Введіть число: "))
+n = int(input("Введіть степінь: "))
+print(power(a, n))
+
 input()
